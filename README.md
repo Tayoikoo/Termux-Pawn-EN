@@ -1,5 +1,6 @@
 # Pawn Compiler for Termux
 > Method by DeviceBlack and BeerlID
+> Translated by Tayoikoo
 
 # Requirements
 - Android 7+ (Tested with: armv7, armv8 and aarch64)
@@ -17,7 +18,7 @@ yes | pkg update -y && yes | pkg upgrade -y && termux-setup-storage
 ### Installing
 cache the virtual file and run it.
 ```sh
-curl -s https://raw.githubusercontent.com/Device-Black/Termux-Pawn/DeviceBlack/install.sh -o install.sh
+curl -s https://raw.githubusercontent.com/Tayoikoo/Termux-Pawn-EN/DeviceBlack/install.sh -o install.sh
 bash install.sh
 ```
 
