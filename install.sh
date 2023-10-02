@@ -134,8 +134,12 @@ echo -e "\033[0m\033[1m- Gunakan \033[33mcd /sdcard/pawn-lang \033[37muntuk meng
 echo -e "\033[0m\033[1m- Gunakan \033[33mpawncc <example.pwn> \033[37muntuk compile script!\n"
 echo -e "\033[1m\033[32mContoh :"
 echo -e "\033[0m\033[1mcd /sdcard/pawn-lang"
-echo -e "\033[0m\033[1mpawncc gamemodes/new.pwn\n"
-echo -e "\n\033[0m\033[1mHappy Scripting!"
+echo -e "\033[0m\033[1mpawncc gamemodes/new.pwn\n\n"
+echo -e "\033[0m\033[1mUntuk menambahkan includes, gunakan pawncc <contoh.pwn> -i<lokasi>\n"
+echo -e "\033[0m\033[1mContoh: \n"
+echo -e "\033[0m\033[1mJika foldermu berada di sdcard maka pawncc <gm.pwn> -i/sdcard/gamemode/includes/ \n"
+
+echo -e "\n\033[0m\033[1mHappy Scripting!\n"
 echo -e "\n\033[0m\033[1mTranslated to English By: Tayoikoo"
 linebreaker
 
